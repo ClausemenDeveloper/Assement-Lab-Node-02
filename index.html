@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Assement Lab Node 2</title>
+    </head>
+    <body>
+        <style>
+            * {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            label {
+                font-size: 14px;
+            }
+            input {
+                font-size: 14px;
+                padding: 4px;
+                border: 1px solid black;
+                transition: background-color 0.5s;
+            }
+            input:focus {
+                outline: none;
+                background-color: lightblue;
+            }
+            h4 {
+                margin-top: 6px;
+                margin-bottom: 6px;
+            }
+        </style>
+        <h2>Dados Cliente</h3>
+        <table>
+            <tr>
+                <td><h4>Dados Pessoais:</h4></td>
+            </tr>
+            <tr>
+                <td><label for="clienteID">ID:</label></td>
+                <td><input id="clienteID" type="text" /></td>
+            </tr>
+            <tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input id="nome" type="text" /></td>
+            </tr>
+            <tr>
+                <td><h4>Morada</h4></td>
+            </tr>
+            <tr>
+                <td><label for="rua">Rua:</label></td>
+                <td><input id="rua" type="text" /></td>
+            </tr>
+            <tr>
+                <td><label for="numeroPredio">Número</label></td>
+                <td><input id="numeroPredio" type="text" /></td>
+            </tr>
+            <tr>    
+                <td><label for="cidade">Cidade:</label></td>
+                <td><input id="cidade" type="text" /></td>
+            </tr>
+            <tr>    
+                <td><label for="codigoPostal">Código Postal:</label></td>
+                <td><input id="codigoPostal" type="text" /></td>
+            </tr>
+            <tr>
+                <td><h4>Consumo</h4></td>
+            </tr>
+            <tr>
+                <td><label for="mes">Mês:</label></td>
+                <td><input id="mes" type="text" /></td>
+            </tr>
+            <tr>
+                <td><label for="ano">Ano:</label></td>
+                <td><input id="ano" type="text" /></td>
+            </tr>
+            <tr>
+                <td><label for="kwhconsumido">Kwh Consumido:</label></td>
+                <td><input id="kwhconsumido" type="text" /></td>
+            </tr>
+            <tr>
+                <td><label for="custoTotal">Custo Total:</label></td>
+                <td><input id="custoTotal" type="text" /></td>
+            </tr>
+            <tr>
+                <td><label for="dataLeitura">Data de Leitura:</label></td>
+                <td><input id="dataLeitura" type="text" /></td>
+            </tr>
+            <tr>
+                <td><h4>Informações <br /> Adicionais</h4></td>
+            </tr>
+            <tr>
+                <td><label for="tipoTarifa">Tipo Tarifa:</label></td>
+                <td><input id="tipoTarifa" type="text" /></td>
+                </tr>
+            <tr>
+                <td><label for="fornecedor">Fornecedor:</label></td>
+                <td><input id="fornecedor" type="text" /></td>
+            </tr>
+            <tr>
+                <td><label for="contratoAtivo">Contrato Ativo</label></td>
+                <td><input id="contratoAtivo" type="checkbox" /></td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
